@@ -8,7 +8,7 @@
     "serve": "webpack server --mode development",
     "start": "npx nodemon --watch webpack.config.js --exec \"npm run serve\"",
     "build-sass": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
-    "deploy": "npm run build && surge ./dist daniil.stolper.surge.sh"
+    "deploy": "npm run build && surge ./dist daniil1.stolper.surge.sh"
   },
   "type": "module",
   "keywords": [],
