@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 let name = "Daniil";
 
 export default async () => {
-    const response = await fetch('https://rickandmortyapi.com/api/character?page=21');
+    const response = await fetch('https://rickandmortyapi.com/api/character?page=23');
     const data = await response.json();
     const characters = data.results;
     const pages = [];
